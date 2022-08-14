@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'Radis';
+    src: url('fonts/Radis Sans.otf') format("opentype")
+}
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    font-family: Radis, sans-serif
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    padding: 5px, 0, 0, 0
+}
+
+.header_img_logo {
+    width: 90px
+}
+
+.header_list {
+    display: flex;
+    list-style: none;
+    color: #69015c;
+    width: 30%;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 700
+}
+
+.home {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 20px;
+    width: 100%;
+    height: 500px;
+    list-style: none
+}
+
+.home_temas {
+    color: #69015c;
+    font-size: 20px
+}
+
+.sobre_mim {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, #6869ad, #69015c)
+}
+
+.footer_contato {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    text-decoration: none;
+    position: absolute;
+    padding: 0
+}
+
+.footer_contato_img_qrcode {
+    width: 100px;
+    margin: 10px
+}
